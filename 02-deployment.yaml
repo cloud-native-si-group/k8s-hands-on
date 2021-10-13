@@ -13,5 +13,5 @@ spec:
         app: workload-1-nginx
     spec:
       containers:
-        - image: nginx
+        - image: public.ecr.aws/nginx/nginx
           name: nginx

@@ -13,7 +13,7 @@ spec:
         app: workload-2-nginx
     spec:
       containers:
-        - image: nginx
+        - image: public.ecr.aws/nginx/nginx
           name: nginx
           ports:
             - containerPort: 80
